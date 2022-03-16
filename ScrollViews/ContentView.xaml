@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ScrollViews.ContentView">
+    <ContentView.Content>
+        <StackLayout Orientation="Horizontal" BackgroundColor="Orange" Margin="10" HeightRequest="100">
+            <BoxView WidthRequest="100" HeightRequest="100" CornerRadius="10" Color="Aqua" />
+            <BoxView HeightRequest="100" Color="MediumPurple" />
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Xd"></Label>
+                <Label Text="Xd"></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
